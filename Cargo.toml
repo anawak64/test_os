@@ -3,5 +3,4 @@ name = "test_os"
 version = "0.1.0"
 edition = "2018"
 
-[dependencies]
-
+build-std = ["core", "compiler_builtins"]
